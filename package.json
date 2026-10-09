@@ -1,27 +1,16 @@
+
 {
   "name": "nagrikq-n8n-workflow",
   "version": "1.0.0",
-  "description": "NagrikQ n8n Telegram Notification Service for Node.js Deployment on Render",
+  "description": "NagrikQ n8n Telegram Notification Service",
   "main": "index.js",
   "scripts": {
-    "start": "n8n start",
-    "dev": "n8n start",
-    "build": "echo 'No build step required for n8n'"
+    "start": "n8n start"
   },
   "dependencies": {
-    "n8n": "^1.60.0"
+    "n8n": "1.60.0"
   },
   "engines": {
     "node": "20.x"
-  },
-  "keywords": [
-    "nagrikq",
-    "n8n",
-    "automation",
-    "render",
-    "telegram",
-    "idp"
-  ],
-  "author": "NagrikQ Team",
-  "license": "ISC"
+  }
 }
